@@ -6,7 +6,8 @@ import logging
 from datetime import datetime
 
 require(lore.dependencies.KERAS)
-import keras.callbacks
+import tensorflow.keras.callbacks
+# import tensorflow.keras
 
 
 logger = logging.getLogger(__name__)

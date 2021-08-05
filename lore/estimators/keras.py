@@ -17,11 +17,11 @@ require(
     lore.dependencies.SKLEARN
 )
 
-import keras
-import keras.backend
-from keras.callbacks import EarlyStopping, TensorBoard, TerminateOnNaN
-from keras.layers import Input, Embedding, Dense, Reshape, Concatenate, Dropout, SimpleRNN, Flatten, LSTM, GRU, BatchNormalization
-from keras.optimizers import Adam
+import tensorflow.keras
+import tensorflow.keras.backend
+from tensorflow.keras.callbacks import EarlyStopping, TensorBoard, TerminateOnNaN
+from tensorflow.keras.layers import Input, Embedding, Dense, Reshape, Concatenate, Dropout, SimpleRNN, Flatten, LSTM, GRU, BatchNormalization
+from tensorflow.keras.optimizers import Adam
 import numpy
 import pandas
 import tensorflow

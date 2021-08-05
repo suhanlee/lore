@@ -9,7 +9,6 @@ import lore.dependencies
 from lore import env, util, ansi
 from lore.util import timer
 
-
 logger = logging.getLogger(__name__)
 
 
